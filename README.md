@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 ![Durjoy's GitHub stats](https://github-readme-stats.vercel.app/api?username=durjoysaha&show_icons=true&theme=radical)
 
 <!-- Top Languages -->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=durjoysaha&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=durjoysaha&layout=compact&theme=radical&hide_progress=false&langs_count=10)
 
 <!-- Fun badges -->
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=durjoysaha.durjoysaha)
