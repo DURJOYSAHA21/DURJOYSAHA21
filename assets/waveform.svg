@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="152" viewBox="0 0 780 152" role="img" aria-label="Audio waveform">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2e8f0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#e2e8f0" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#e2e8f0" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="wg" x="-6%" y="-40%" width="112%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .b { fill: url(#wave); transform-box: fill-box; transform-origin: center; animation-name: eq; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-direction: alternate; }
+    @keyframes eq { from { transform: scaleY(var(--lo, .3)); } to { transform: scaleY(var(--hi, 1)); } }
+    @media (prefers-reduced-motion: reduce) { .b { animation: none; } }
+  </style>
+  <line x1="0" y1="76" x2="780" y2="76" stroke="#334155" stroke-width="1" stroke-dasharray="3 6"/>
+  <g filter="url(#wg)">
+    <rect class="b" x="18" y="64" width="6" height="24" rx="3" style="animation-duration:1.10s;animation-delay:0.00s;--lo:0.28;--hi:0.92"/>
+    <rect class="b" x="35" y="47" width="6" height="59" rx="3" style="animation-duration:2.48s;animation-delay:-2.21s;--lo:0.48;--hi:1.20"/>
+    <rect class="b" x="52" y="60" width="6" height="32" rx="3" style="animation-duration:1.19s;animation-delay:-0.14s;--lo:0.29;--hi:0.94"/>
+    <rect class="b" x="69" y="49" width="6" height="55" rx="3" style="animation-duration:1.94s;animation-delay:-1.34s;--lo:0.40;--hi:1.09"/>
+    <rect class="b" x="86" y="51" width="6" height="50" rx="3" style="animation-duration:1.66s;animation-delay:-0.90s;--lo:0.36;--hi:1.03"/>
+    <rect class="b" x="103" y="48" width="6" height="56" rx="3" style="animation-duration:1.78s;animation-delay:-1.09s;--lo:0.38;--hi:1.06"/>
+    <rect class="b" x="120" y="43" width="6" height="67" rx="3" style="animation-duration:2.04s;animation-delay:-1.50s;--lo:0.42;--hi:1.11"/>
+    <rect class="b" x="137" y="54" width="6" height="45" rx="3" style="animation-duration:1.35s;animation-delay:-0.40s;--lo:0.32;--hi:0.97"/>
+    <rect class="b" x="154" y="39" width="6" height="74" rx="3" style="animation-duration:2.11s;animation-delay:-1.61s;--lo:0.43;--hi:1.12"/>
+    <rect class="b" x="171" y="44" width="6" height="64" rx="3" style="animation-duration:1.79s;animation-delay:-1.10s;--lo:0.38;--hi:1.06"/>
+    <rect class="b" x="188" y="56" width="6" height="40" rx="3" style="animation-duration:1.14s;animation-delay:-0.07s;--lo:0.29;--hi:0.93"/>
+    <rect class="b" x="205" y="51" width="6" height="50" rx="3" style="animation-duration:1.37s;animation-delay:-0.43s;--lo:0.32;--hi:0.97"/>
+    <rect class="b" x="222" y="31" width="6" height="91" rx="3" style="animation-duration:2.33s;animation-delay:-1.97s;--lo:0.46;--hi:1.17"/>
+    <rect class="b" x="239" y="56" width="6" height="40" rx="3" style="animation-duration:1.11s;animation-delay:-0.01s;--lo:0.28;--hi:0.92"/>
+    <rect class="b" x="256" y="50" width="6" height="52" rx="3" style="animation-duration:1.38s;animation-delay:-0.44s;--lo:0.32;--hi:0.98"/>
+    <rect class="b" x="273" y="41" width="6" height="70" rx="3" style="animation-duration:1.76s;animation-delay:-1.06s;--lo:0.38;--hi:1.05"/>
+    <rect class="b" x="290" y="24" width="6" height="104" rx="3" style="animation-duration:2.49s;animation-delay:-2.22s;--lo:0.48;--hi:1.20"/>
+    <rect class="b" x="307" y="41" width="6" height="71" rx="3" style="animation-duration:1.75s;animation-delay:-1.04s;--lo:0.38;--hi:1.05"/>
+    <rect class="b" x="324" y="33" width="6" height="86" rx="3" style="animation-duration:2.07s;animation-delay:-1.55s;--lo:0.42;--hi:1.11"/>
+    <rect class="b" x="341" y="44" width="6" height="64" rx="3" style="animation-duration:1.58s;animation-delay:-0.77s;--lo:0.35;--hi:1.02"/>
+    <rect class="b" x="358" y="29" width="6" height="95" rx="3" style="animation-duration:2.24s;animation-delay:-1.82s;--lo:0.45;--hi:1.15"/>
+    <rect class="b" x="375" y="36" width="6" height="81" rx="3" style="animation-duration:1.93s;animation-delay:-1.33s;--lo:0.40;--hi:1.09"/>
+    <rect class="b" x="392" y="32" width="6" height="88" rx="3" style="animation-duration:2.09s;animation-delay:-1.59s;--lo:0.43;--hi:1.12"/>
+    <rect class="b" x="409" y="35" width="6" height="82" rx="3" style="animation-duration:1.97s;animation-delay:-1.39s;--lo:0.41;--hi:1.09"/>
+    <rect class="b" x="426" y="25" width="6" height="102" rx="3" style="animation-duration:2.40s;animation-delay:-2.07s;--lo:0.47;--hi:1.18"/>
+    <rect class="b" x="443" y="32" width="6" height="88" rx="3" style="animation-duration:2.10s;animation-delay:-1.61s;--lo:0.43;--hi:1.12"/>
+    <rect class="b" x="460" y="38" width="6" height="76" rx="3" style="animation-duration:1.86s;animation-delay:-1.21s;--lo:0.39;--hi:1.07"/>
+    <rect class="b" x="477" y="22" width="6" height="109" rx="3" style="animation-duration:2.60s;animation-delay:-2.40s;--lo:0.50;--hi:1.22"/>
+    <rect class="b" x="494" y="28" width="6" height="97" rx="3" style="animation-duration:2.36s;animation-delay:-2.01s;--lo:0.46;--hi:1.17"/>
+    <rect class="b" x="511" y="37" width="6" height="79" rx="3" style="animation-duration:1.97s;animation-delay:-1.39s;--lo:0.41;--hi:1.09"/>
+    <rect class="b" x="528" y="24" width="6" height="104" rx="3" style="animation-duration:2.58s;animation-delay:-2.36s;--lo:0.50;--hi:1.22"/>
+    <rect class="b" x="545" y="34" width="6" height="85" rx="3" style="animation-duration:2.19s;animation-delay:-1.74s;--lo:0.44;--hi:1.14"/>
+    <rect class="b" x="562" y="48" width="6" height="56" rx="3" style="animation-duration:1.53s;animation-delay:-0.69s;--lo:0.34;--hi:1.01"/>
+    <rect class="b" x="579" y="45" width="6" height="63" rx="3" style="animation-duration:1.73s;animation-delay:-1.00s;--lo:0.37;--hi:1.05"/>
+    <rect class="b" x="596" y="52" width="6" height="49" rx="3" style="animation-duration:1.40s;animation-delay:-0.48s;--lo:0.32;--hi:0.98"/>
+    <rect class="b" x="613" y="42" width="6" height="69" rx="3" style="animation-duration:1.96s;animation-delay:-1.38s;--lo:0.41;--hi:1.09"/>
+    <rect class="b" x="630" y="32" width="6" height="89" rx="3" style="animation-duration:2.57s;animation-delay:-2.36s;--lo:0.50;--hi:1.21"/>
+    <rect class="b" x="647" y="35" width="6" height="82" rx="3" style="animation-duration:2.48s;animation-delay:-2.21s;--lo:0.48;--hi:1.20"/>
+    <rect class="b" x="664" y="46" width="6" height="60" rx="3" style="animation-duration:1.89s;animation-delay:-1.27s;--lo:0.40;--hi:1.08"/>
+    <rect class="b" x="681" y="55" width="6" height="43" rx="3" style="animation-duration:1.45s;animation-delay:-0.56s;--lo:0.33;--hi:0.99"/>
+    <rect class="b" x="698" y="52" width="6" height="48" rx="3" style="animation-duration:1.71s;animation-delay:-0.97s;--lo:0.37;--hi:1.04"/>
+    <rect class="b" x="715" y="60" width="6" height="32" rx="3" style="animation-duration:1.20s;animation-delay:-0.16s;--lo:0.29;--hi:0.94"/>
+    <rect class="b" x="732" y="53" width="6" height="46" rx="3" style="animation-duration:1.92s;animation-delay:-1.31s;--lo:0.40;--hi:1.08"/>
+    <rect class="b" x="749" y="55" width="6" height="43" rx="3" style="animation-duration:2.28s;animation-delay:-1.88s;--lo:0.45;--hi:1.16"/>
+  </g>
+  <g opacity="0.45">
+    <rect x="-140" y="0" width="140" height="152" fill="url(#sweep)">
+      <animate attributeName="x" from="-140" to="780" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
