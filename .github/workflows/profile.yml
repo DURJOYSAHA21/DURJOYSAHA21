@@ -21,6 +21,8 @@ jobs:
   snake:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - name: Render contribution snake
         uses: Platane/snk/svg-only@v3
         with:
