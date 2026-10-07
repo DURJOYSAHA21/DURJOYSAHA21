@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="66" viewBox="0 0 900 66" role="img" aria-label="Technology stack, scrolling">
+  <defs>
+    <linearGradient id="mqbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d18"/>
+      <stop offset="1" stop-color="#0b1120"/>
+    </linearGradient>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a0f1c" stop-opacity="1"/>
+      <stop offset="1" stop-color="#0a0f1c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#0a0f1c" stop-opacity="1"/>
+      <stop offset="1" stop-color="#0a0f1c" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="soft">
+      <rect width="900" height="66" fill="#fff"/>
+      <rect width="70" height="66" fill="url(#fadeL)"/>
+      <rect x="830" width="70" height="66" fill="url(#fadeR)"/>
+    </mask>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, system-ui, sans-serif; }
+    .track { animation: slide 43s linear infinite; }
+    @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-1804.0px); } }
+    @media (prefers-reduced-motion: reduce) { .track { animation: none; } }
+  </style>
+
+  <rect width="900" height="66" rx="14" fill="url(#mqbg)"/>
+  <rect x="1" y="1" width="898" height="64" rx="14" fill="none" stroke="#5eead4" stroke-opacity="0.12"/>
+
+  <g mask="url(#soft)" class="sans">
+    <g class="track">
+      <g transform="translate(0.0, 20)">
+        <rect width="66" height="26" rx="13" fill="#0f1626" stroke="#5eead4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#5eead4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Python</text>
+      </g>
+      <g transform="translate(76.0, 20)">
+        <rect width="43" height="26" rx="13" fill="#0f1626" stroke="#c4b5fd" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#c4b5fd" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">C++</text>
+      </g>
+      <g transform="translate(129.0, 20)">
+        <rect width="35" height="26" rx="13" fill="#0f1626" stroke="#7dd3fc" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#7dd3fc" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">C#</text>
+      </g>
+      <g transform="translate(174.0, 20)">
+        <rect width="50" height="26" rx="13" fill="#0f1626" stroke="#fcd34d" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#fcd34d" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Java</text>
+      </g>
+      <g transform="translate(234.0, 20)">
+        <rect width="96" height="26" rx="13" fill="#0f1626" stroke="#f9a8d4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#f9a8d4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">JavaScript</text>
+      </g>
+      <g transform="translate(340.0, 20)">
+        <rect width="96" height="26" rx="13" fill="#0f1626" stroke="#5eead4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#5eead4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">TypeScript</text>
+      </g>
+      <g transform="translate(446.0, 20)">
+        <rect width="43" height="26" rx="13" fill="#0f1626" stroke="#c4b5fd" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#c4b5fd" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">PHP</text>
+      </g>
+      <g transform="translate(499.0, 20)">
+        <rect width="73" height="26" rx="13" fill="#0f1626" stroke="#7dd3fc" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#7dd3fc" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">PyTorch</text>
+      </g>
+      <g transform="translate(582.0, 20)">
+        <rect width="96" height="26" rx="13" fill="#0f1626" stroke="#fcd34d" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#fcd34d" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">torchaudio</text>
+      </g>
+      <g transform="translate(688.0, 20)">
+        <rect width="111" height="26" rx="13" fill="#0f1626" stroke="#f9a8d4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#f9a8d4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">transformers</text>
+      </g>
+      <g transform="translate(809.0, 20)">
+        <rect width="73" height="26" rx="13" fill="#0f1626" stroke="#5eead4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#5eead4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">librosa</text>
+      </g>
+      <g transform="translate(892.0, 20)">
+        <rect width="58" height="26" rx="13" fill="#0f1626" stroke="#c4b5fd" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#c4b5fd" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">spaCy</text>
+      </g>
+      <g transform="translate(960.0, 20)">
+        <rect width="111" height="26" rx="13" fill="#0f1626" stroke="#7dd3fc" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#7dd3fc" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">scikit-learn</text>
+      </g>
+      <g transform="translate(1081.0, 20)">
+        <rect width="50" height="26" rx="13" fill="#0f1626" stroke="#fcd34d" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#fcd34d" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">SHAP</text>
+      </g>
+      <g transform="translate(1141.0, 20)">
+        <rect width="73" height="26" rx="13" fill="#0f1626" stroke="#f9a8d4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#f9a8d4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">FastAPI</text>
+      </g>
+      <g transform="translate(1224.0, 20)">
+        <rect width="58" height="26" rx="13" fill="#0f1626" stroke="#5eead4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#5eead4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">React</text>
+      </g>
+      <g transform="translate(1292.0, 20)">
+        <rect width="50" height="26" rx="13" fill="#0f1626" stroke="#c4b5fd" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#c4b5fd" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Vite</text>
+      </g>
+      <g transform="translate(1352.0, 20)">
+        <rect width="81" height="26" rx="13" fill="#0f1626" stroke="#7dd3fc" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#7dd3fc" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Tailwind</text>
+      </g>
+      <g transform="translate(1443.0, 20)">
+        <rect width="50" height="26" rx="13" fill="#0f1626" stroke="#fcd34d" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#fcd34d" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">.NET</text>
+      </g>
+      <g transform="translate(1503.0, 20)">
+        <rect width="96" height="26" rx="13" fill="#0f1626" stroke="#f9a8d4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#f9a8d4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">PostgreSQL</text>
+      </g>
+      <g transform="translate(1609.0, 20)">
+        <rect width="66" height="26" rx="13" fill="#0f1626" stroke="#5eead4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#5eead4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">SQLite</text>
+      </g>
+      <g transform="translate(1685.0, 20)">
+        <rect width="66" height="26" rx="13" fill="#0f1626" stroke="#c4b5fd" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#c4b5fd" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Docker</text>
+      </g>
+      <g transform="translate(1761.0, 20)">
+        <rect width="43" height="26" rx="13" fill="#0f1626" stroke="#7dd3fc" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#7dd3fc" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Git</text>
+      </g>
+      <g transform="translate(1804.0, 20)">
+        <rect width="66" height="26" rx="13" fill="#0f1626" stroke="#5eead4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#5eead4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Python</text>
+      </g>
+      <g transform="translate(1880.0, 20)">
+        <rect width="43" height="26" rx="13" fill="#0f1626" stroke="#c4b5fd" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#c4b5fd" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">C++</text>
+      </g>
+      <g transform="translate(1933.0, 20)">
+        <rect width="35" height="26" rx="13" fill="#0f1626" stroke="#7dd3fc" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#7dd3fc" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">C#</text>
+      </g>
+      <g transform="translate(1978.0, 20)">
+        <rect width="50" height="26" rx="13" fill="#0f1626" stroke="#fcd34d" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#fcd34d" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Java</text>
+      </g>
+      <g transform="translate(2038.0, 20)">
+        <rect width="96" height="26" rx="13" fill="#0f1626" stroke="#f9a8d4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#f9a8d4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">JavaScript</text>
+      </g>
+      <g transform="translate(2144.0, 20)">
+        <rect width="96" height="26" rx="13" fill="#0f1626" stroke="#5eead4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#5eead4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">TypeScript</text>
+      </g>
+      <g transform="translate(2250.0, 20)">
+        <rect width="43" height="26" rx="13" fill="#0f1626" stroke="#c4b5fd" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#c4b5fd" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">PHP</text>
+      </g>
+      <g transform="translate(2303.0, 20)">
+        <rect width="73" height="26" rx="13" fill="#0f1626" stroke="#7dd3fc" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#7dd3fc" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">PyTorch</text>
+      </g>
+      <g transform="translate(2386.0, 20)">
+        <rect width="96" height="26" rx="13" fill="#0f1626" stroke="#fcd34d" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#fcd34d" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">torchaudio</text>
+      </g>
+      <g transform="translate(2492.0, 20)">
+        <rect width="111" height="26" rx="13" fill="#0f1626" stroke="#f9a8d4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#f9a8d4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">transformers</text>
+      </g>
+      <g transform="translate(2613.0, 20)">
+        <rect width="73" height="26" rx="13" fill="#0f1626" stroke="#5eead4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#5eead4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">librosa</text>
+      </g>
+      <g transform="translate(2696.0, 20)">
+        <rect width="58" height="26" rx="13" fill="#0f1626" stroke="#c4b5fd" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#c4b5fd" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">spaCy</text>
+      </g>
+      <g transform="translate(2764.0, 20)">
+        <rect width="111" height="26" rx="13" fill="#0f1626" stroke="#7dd3fc" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#7dd3fc" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">scikit-learn</text>
+      </g>
+      <g transform="translate(2885.0, 20)">
+        <rect width="50" height="26" rx="13" fill="#0f1626" stroke="#fcd34d" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#fcd34d" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">SHAP</text>
+      </g>
+      <g transform="translate(2945.0, 20)">
+        <rect width="73" height="26" rx="13" fill="#0f1626" stroke="#f9a8d4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#f9a8d4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">FastAPI</text>
+      </g>
+      <g transform="translate(3028.0, 20)">
+        <rect width="58" height="26" rx="13" fill="#0f1626" stroke="#5eead4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#5eead4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">React</text>
+      </g>
+      <g transform="translate(3096.0, 20)">
+        <rect width="50" height="26" rx="13" fill="#0f1626" stroke="#c4b5fd" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#c4b5fd" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Vite</text>
+      </g>
+      <g transform="translate(3156.0, 20)">
+        <rect width="81" height="26" rx="13" fill="#0f1626" stroke="#7dd3fc" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#7dd3fc" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Tailwind</text>
+      </g>
+      <g transform="translate(3247.0, 20)">
+        <rect width="50" height="26" rx="13" fill="#0f1626" stroke="#fcd34d" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#fcd34d" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">.NET</text>
+      </g>
+      <g transform="translate(3307.0, 20)">
+        <rect width="96" height="26" rx="13" fill="#0f1626" stroke="#f9a8d4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#f9a8d4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">PostgreSQL</text>
+      </g>
+      <g transform="translate(3413.0, 20)">
+        <rect width="66" height="26" rx="13" fill="#0f1626" stroke="#5eead4" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#5eead4" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">SQLite</text>
+      </g>
+      <g transform="translate(3489.0, 20)">
+        <rect width="66" height="26" rx="13" fill="#0f1626" stroke="#c4b5fd" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#c4b5fd" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Docker</text>
+      </g>
+      <g transform="translate(3565.0, 20)">
+        <rect width="43" height="26" rx="13" fill="#0f1626" stroke="#7dd3fc" stroke-opacity="0.35"/>
+        <circle cx="12" cy="13" r="2.6" fill="#7dd3fc" opacity="0.85"/>
+        <text x="22" y="17.5" font-size="12.5" fill="#cbd5e1">Git</text>
+      </g>
+    </g>
+  </g>
+</svg>

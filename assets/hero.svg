@@ -1,104 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="344" viewBox="0 0 900 344" role="img" aria-label="Durjoy Saha - AI/ML student">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Durjoy Saha">
   <defs>
-    <linearGradient id="night" x1="0" y1="0" x2="0.6" y2="1">
-      <stop offset="0" stop-color="#060911"/>
+    <linearGradient id="night" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#05070f"/>
       <stop offset="0.5" stop-color="#0a1020"/>
-      <stop offset="1" stop-color="#0b0f1d"/>
+      <stop offset="1" stop-color="#0a0d1c"/>
     </linearGradient>
 
     <radialGradient id="a1" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.42"/>
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.45"/>
       <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="a2" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.40"/>
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.44"/>
       <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="a3" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.32"/>
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.34"/>
       <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="a4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f472b6" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
     </radialGradient>
 
     <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#e6fff8"/>
-      <stop offset="0.45" stop-color="#a5f3ea"/>
-      <stop offset="1" stop-color="#c4b5fd"/>
+      <stop offset="0" stop-color="#ecfeff"/>
+      <stop offset="0.4" stop-color="#99f6e4"/>
+      <stop offset="0.75" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#f5d0fe"/>
     </linearGradient>
 
-    <filter id="blur24"><feGaussianBlur stdDeviation="24"/></filter>
-    <filter id="soft" x="-30%" y="-60%" width="160%" height="220%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#5eead4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="blur28"><feGaussianBlur stdDeviation="28"/></filter>
+    <filter id="glow" x="-25%" y="-60%" width="150%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
       <feMerge>
         <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <clipPath id="nameClip"><text x="450" y="168" text-anchor="middle" font-size="72" font-weight="250" letter-spacing="13" class="sans">DURJOY SAHA</text></clipPath>
   </defs>
 
   <style>
     .sans { font-family: 'Segoe UI', Inter, system-ui, sans-serif; }
-    .mono { font-family: 'Cascadia Code', 'Fira Code', Consolas, monospace; }
-    .breathe { animation: breathe 7s ease-in-out infinite; }
-    .tw { animation: tw 4s ease-in-out infinite; }
-    .type { transform-box: fill-box; transform-origin: left center; animation: type 1.5s cubic-bezier(.2,.7,.3,1) both; }
-    .caret { animation: blink 1.4s steps(1,end) infinite; }
-    @keyframes breathe { 0%,100% { opacity: .92; } 50% { opacity: 1; } }
-    @keyframes tw { 0%,100% { opacity: .15; } 50% { opacity: .8; } }
-    @keyframes type { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-    @keyframes blink { 0%,45% { opacity: 1; } 46%,100% { opacity: 0; } }
+    .breathe { animation: breathe 8s ease-in-out infinite; }
+    .tw { animation: tw 4.5s ease-in-out infinite; }
+    .rise { transform-box: fill-box; transform-origin: center; animation: rise linear infinite; }
+    .orbit { transform-origin: 450px 150px; animation: spin 60s linear infinite; }
+    .orbit2 { transform-origin: 450px 150px; animation: spin 42s linear infinite reverse; }
+    @keyframes breathe { 0%,100% { opacity: .9; } 50% { opacity: 1; } }
+    @keyframes tw { 0%,100% { opacity: .12; } 50% { opacity: .85; } }
+    @keyframes rise {
+      0% { transform: translateY(0); opacity: 0; }
+      12% { opacity: .9; }
+      80% { opacity: .5; }
+      100% { transform: translateY(-190px); opacity: 0; }
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
     @media (prefers-reduced-motion: reduce) {
-      .breathe,.tw,.caret { animation: none; }
-      .type { animation: none; }
+      .breathe,.tw,.rise,.orbit,.orbit2 { animation: none; }
     }
   </style>
 
-  <rect width="900" height="344" rx="18" fill="url(#night)"/>
+  <rect width="900" height="300" rx="18" fill="url(#night)"/>
 
-  <g filter="url(#blur24)">
-    <ellipse cx="180" cy="70" rx="230" ry="120" fill="url(#a1)">
-      <animateTransform attributeName="transform" type="translate"
-        values="0 0; 90 40; -30 18; 0 0" dur="26s" repeatCount="indefinite"/>
+  <g filter="url(#blur28)">
+    <ellipse cx="160" cy="60" rx="240" ry="120" fill="url(#a1)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 110 45; -40 15; 0 0" dur="28s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="700" cy="120" rx="250" ry="130" fill="url(#a2)">
-      <animateTransform attributeName="transform" type="translate"
-        values="0 0; -80 34; 24 -20; 0 0" dur="21s" repeatCount="indefinite"/>
+    <ellipse cx="720" cy="100" rx="250" ry="130" fill="url(#a2)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -95 40; 30 -25; 0 0" dur="23s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="440" cy="300" rx="280" ry="110" fill="url(#a3)">
-      <animateTransform attributeName="transform" type="translate"
-        values="0 0; 60 -30; -70 -12; 0 0" dur="30s" repeatCount="indefinite"/>
+    <ellipse cx="430" cy="270" rx="300" ry="110" fill="url(#a3)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 70 -35; -80 -10; 0 0" dur="32s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="560" cy="30" rx="200" ry="95" fill="url(#a4)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -120 30; 60 55; 0 0" dur="37s" repeatCount="indefinite"/>
     </ellipse>
   </g>
 
-  <g fill="#dbeafe">
-    <circle class="tw" cx="120" cy="240" r="1.3"/>
-    <circle class="tw" cx="255" cy="60" r="1" style="animation-delay:-1.2s"/>
-    <circle class="tw" cx="520" cy="42" r="1.4" style="animation-delay:-2.4s"/>
-    <circle class="tw" cx="660" cy="230" r="1" style="animation-delay:-0.6s"/>
-    <circle class="tw" cx="790" cy="70" r="1.3" style="animation-delay:-3.1s"/>
-    <circle class="tw" cx="840" cy="250" r="1" style="animation-delay:-1.8s"/>
-    <circle class="tw" cx="360" cy="270" r="1.2" style="animation-delay:-2.8s"/>
+  <g fill="#e0f2fe">
+    <circle class="tw" cx="96" cy="215" r="1.3"/>
+    <circle class="tw" cx="232" cy="52" r="1" style="animation-delay:-1.4s"/>
+    <circle class="tw" cx="388" cy="34" r="1.4" style="animation-delay:-2.7s"/>
+    <circle class="tw" cx="540" cy="58" r="1" style="animation-delay:-0.7s"/>
+    <circle class="tw" cx="676" cy="238" r="1.3" style="animation-delay:-3.4s"/>
+    <circle class="tw" cx="812" cy="62" r="1.1" style="animation-delay:-2.1s"/>
+    <circle class="tw" cx="856" cy="206" r="1.4" style="animation-delay:-4.1s"/>
+    <circle class="tw" cx="304" cy="252" r="1" style="animation-delay:-1.9s"/>
+    <circle class="tw" cx="150" cy="120" r="1.1" style="animation-delay:-3.8s"/>
+    <circle class="tw" cx="742" cy="150" r="1" style="animation-delay:-0.4s"/>
   </g>
 
-  <rect x="1" y="1" width="898" height="342" rx="18" fill="none" stroke="#5eead4" stroke-opacity="0.18"/>
-
-  <g class="sans" text-anchor="middle">
-    <text class="breathe" x="450" y="112" font-size="58" font-weight="300" letter-spacing="9"
-          fill="url(#nameFill)" filter="url(#soft)">DURJOY SAHA</text>
-    <text x="450" y="146" font-size="14" font-weight="400" letter-spacing="4.5" fill="#7f8fa6">
-      AUDIO DEEPFAKE DETECTION  ·  NLP  ·  FULL-STACK
-    </text>
+  <g class="orbit" fill="none" stroke="#5eead4" stroke-opacity="0.10" stroke-dasharray="2 14">
+    <circle cx="450" cy="150" r="132"/>
+  </g>
+  <g class="orbit2" fill="none" stroke="#c4b5fd" stroke-opacity="0.12" stroke-dasharray="2 20">
+    <circle cx="450" cy="150" r="158"/>
   </g>
 
-  <g class="mono">
-    <text x="72" y="212" font-size="15" fill="#5eead4" class="type" style="animation-delay:.3s">
-      <tspan fill="#475569">$</tspan> listening for the difference between a voice and a copy of one
-    </text>
-    <text x="72" y="242" font-size="15" fill="#a5b4fc" class="type" style="animation-delay:1.5s">
-      <tspan fill="#475569">$</tspan> wav2vec2 · asvspoof · in-the-wild · eer / auc
-    </text>
-    <text x="72" y="272" font-size="15" fill="#94a3b8" class="type" style="animation-delay:2.7s">
-      <tspan fill="#475569">$</tspan> explainable first — a score you cannot read is not finished
-    </text>
-    <text x="72" y="302" font-size="15" fill="#5eead4" class="caret">$ <tspan fill="#e2e8f0">_</tspan></text>
+  <g fill="#a5f3ea">
+    <circle class="rise" cx="180" cy="255" r="1.8" style="animation-duration:11s;animation-delay:0s"/>
+    <circle class="rise" cx="268" cy="262" r="1.2" style="animation-duration:14s;animation-delay:-3s"/>
+    <circle class="rise" cx="352" cy="258" r="1.5" style="animation-duration:12s;animation-delay:-6s"/>
+    <circle class="rise" cx="455" cy="265" r="1.1" style="animation-duration:16s;animation-delay:-2s"/>
+    <circle class="rise" cx="548" cy="256" r="1.7" style="animation-duration:13s;animation-delay:-8s"/>
+    <circle class="rise" cx="640" cy="263" r="1.2" style="animation-duration:15s;animation-delay:-4s"/>
+    <circle class="rise" cx="726" cy="259" r="1.5" style="animation-duration:11.5s;animation-delay:-7s"/>
   </g>
+
+  <rect x="1" y="1" width="898" height="298" rx="18" fill="none" stroke="#5eead4" stroke-opacity="0.16"/>
+
+  <g class="sans breathe" filter="url(#glow)">
+    <text x="450" y="168" text-anchor="middle" font-size="72" font-weight="250" letter-spacing="13" fill="url(#nameFill)">DURJOY SAHA</text>
+  </g>
+
+  <g clip-path="url(#nameClip)">
+    <rect x="-320" y="100" width="300" height="90" fill="url(#shine)">
+      <animate attributeName="x" from="-320" to="920" dur="6.5s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="270" y="196" width="360" height="1.4" rx="0.7" fill="url(#rule)"/>
 </svg>

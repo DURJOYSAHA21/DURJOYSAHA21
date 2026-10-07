@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DURJOYSAHA21/DURJOYSAHA21/main/assets/hero.svg" width="100%" alt="Durjoy Saha — audio deepfake detection, NLP, full-stack"/>
+<img src="https://raw.githubusercontent.com/DURJOYSAHA21/DURJOYSAHA21/main/assets/hero.svg" width="100%" alt="Durjoy Saha"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3400&pause=1000&color=5EEAD4&center=true&vCenter=true&width=620&height=34&lines=audio+deepfake+and+vishing+detection;nlp+for+bangladeshi+job+seekers;pytorch+%C2%B7+fastapi+%C2%B7+react;explainable+models%2C+not+vibes" alt="Focus areas" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3600&pause=1100&color=5EEAD4&center=true&vCenter=true&width=560&height=34&lines=final+year+cse+student%2C+dhaka;lo-fi+on+the+headphones;one+more+match%2C+then+i+sleep;learning+to+build+things+properly" alt="A few lines about me" />
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=DURJOYSAHA21&color=2dd4bf&style=flat&label=VIEWS" alt="Profile views"/>
   <img src="https://img.shields.io/github/followers/DURJOYSAHA21?style=flat&color=8b5cf6&labelColor=1e293b&logo=github&label=FOLLOW" alt="GitHub followers"/>
-  <img src="https://img.shields.io/badge/open_to-ML_and_backend_internships-2dd4bf?style=flat&labelColor=1e293b" alt="Open to internships"/>
+  <img src="https://img.shields.io/badge/open_to-internships-2dd4bf?style=flat&labelColor=1e293b" alt="Open to internships"/>
 </p>
 
 </div>
@@ -16,15 +16,29 @@
 
 ## About
 
-Computer science student working mostly on **audio deepfake and vishing detection** — teaching
-models to tell a real voice from a synthetic one, and then making them say *why* they decided.
-Everything else on this profile exists because that work needed it: NLP for
-[Bangladeshi job seekers](https://github.com/DURJOYSAHA21/jobmatch-bd), optimisation with LLMs for
-a university fest, and enough C#, Java and C++ coursework to keep the fundamentals honest.
+I'm in my final year of CSE at American International University-Bangladesh, in Dhaka. Fourth year
+has a specific feeling to it — enough time to build something properly, not enough to keep putting
+it off.
 
-- Fine-tunes **Wav2Vec2** on ASVspoof and In-the-Wild, evaluates on **EER / AUC** rather than plain accuracy
-- Believes a score you cannot read is not finished — **SHAP** and feature attribution over black-box confidence
-- Ships the boring half too: FastAPI backends, React frontends, Dockerfiles, deploys
+I'm quietly stubborn about understanding things rather than getting them to pass. I'd rather know
+why something works than have it work once by accident. That habit slows me down more than I'd like
+to admit, and it's also the only reason anything I ship holds up later.
+
+Away from the editor I'm usually in a ranked match with the mic off, or half-watching a film with
+something on the headphones. I read a lot of manga and watch a lot of anime, and I keep a folder of
+memes I have no intention of deleting.
+
+Nothing here is polished on purpose. It's a working profile of a working student.
+
+## Off the clock
+
+<img src="https://raw.githubusercontent.com/DURJOYSAHA21/DURJOYSAHA21/main/assets/nightcity.svg" width="100%" alt="Night skyline with lit windows"/>
+
+Competitive shooters at night and FIFA whenever a friend is online. Lo-fi and chill beats when I'm
+concentrating, hip-hop and Bangla tracks when I'm not. Somewhere between the third match and the
+third episode I usually remember I had something to finish.
+
+<img src="https://raw.githubusercontent.com/DURJOYSAHA21/DURJOYSAHA21/main/assets/waveform.svg" width="100%" alt="Audio waveform"/>
 
 ## Languages
 
@@ -32,35 +46,15 @@ a university fest, and enough C#, Java and C++ coursework to keep the fundamenta
 
 ## Stack
 
+<img src="https://raw.githubusercontent.com/DURJOYSAHA21/DURJOYSAHA21/main/assets/marquee.svg" width="100%" alt="Scrolling list of technologies"/>
+
 **Languages**
 
 <img src="https://skillicons.dev/icons?i=py,cpp,cs,java,js,ts,php,html,css" alt="Python, C++, C#, Java, JavaScript, TypeScript, PHP, HTML, CSS"/>
 
-**ML, data and training**
-
-<code>PyTorch</code> · <code>torchaudio</code> · <code>transformers (Wav2Vec2)</code> · <code>librosa</code> · <code>spaCy</code> · <code>sentence-transformers</code> · <code>scikit-learn</code> · <code>SHAP</code> · <code>Whisper</code> · <code>PuLP</code> · <code>pandas</code> · <code>NumPy</code>
-
 **Serving and front end**
 
 <img src="https://skillicons.dev/icons?i=fastapi,react,vite,tailwind,dotnet,postgres,sqlite,docker,git,github,vscode" alt="FastAPI, React, Vite, Tailwind, .NET, PostgreSQL, SQLite, Docker, Git, GitHub, VS Code"/>
-
-## The audio work
-
-<img src="https://raw.githubusercontent.com/DURJOYSAHA21/DURJOYSAHA21/main/assets/waveform.svg" width="100%" alt="Animated audio waveform"/>
-
-The main thread across two repos: [Vishing-Detection](https://github.com/DURJOYSAHA21/Vishing-Detection)
-and [Explainable and Generalizable Deepfake Detection for Vishing Attack Recognition](https://github.com/DURJOYSAHA21/Explainable-and-Generalizable-Deepfake-Detection-for-Vishing-Attack-Recognition).
-
-| Layer | What I actually did |
-|:---|:---|
-| Signal baseline | MFCC, spectral features and zero-crossing rate pipelines, so the learned model has something to beat |
-| Learned model | Fine-tuned Wav2Vec2 for sequence classification on ASVspoof and In-the-Wild audio, with VCTK as real speech |
-| Evaluation | EER, AUC and ROC as the headline numbers — accuracy alone hides exactly the failures that matter |
-| Explainability | SHAP and feature attribution, to separate a model that hears artefacts from one that just memorised the dataset |
-| Text side | Whisper transcription plus spaCy, for the linguistic layer of a vishing call |
-
-Generalisation across datasets is the open problem, not a solved one — the notebooks are honest
-about where it still breaks.
 
 ## Shipped
 
@@ -81,12 +75,9 @@ Coursework archives: `Advance-Dot-Net`, `Compiler-Lab-`, `Graphics`, `WebTech`, 
 
 ## Telemetry
 
-Refreshed nightly by a GitHub Action that reads the API directly — no third-party badge service to
-go quiet.
-
 <img src="https://raw.githubusercontent.com/DURJOYSAHA21/DURJOYSAHA21/main/assets/telemetry.svg" width="100%" alt="Contribution telemetry: 208 contributions, 4 day streak, 4 day best streak"/>
 
-The snake crawls through the same grid. It appears once the `profile` workflow has run.
+The snake crawls through the same grid.
 
 <img src="https://raw.githubusercontent.com/DURJOYSAHA21/DURJOYSAHA21/output/github-contribution-grid-snake.svg" alt="Contribution grid snake animation"/>
 
@@ -106,14 +97,9 @@ The snake crawls through the same grid. It appears once the `profile` workflow h
   </tr>
 </table>
 
-## Now
+<div align="center">
 
-- Pushing the deepfake detector to hold up on datasets it has never seen
-- Getting `jobmatch-bd` in front of actual job seekers instead of sample postings
-- Writing up what audio features actually buy you over a raw waveform
-- Reading more, shipping at a calmer pace
-
-<p align="center">
+<p>
   <a href="https://github.com/DURJOYSAHA21">
     <img src="https://img.shields.io/badge/github-DURJOYSAHA21-2dd4bf?style=for-the-badge&logo=github&labelColor=1e293b" alt="GitHub profile"/>
   </a>
@@ -123,8 +109,6 @@ The snake crawls through the same grid. It appears once the `profile` workflow h
 </p>
 
 <!-- Add an email / LinkedIn badge here once you want it public. -->
-
-<div align="center">
 
 <img src="https://raw.githubusercontent.com/DURJOYSAHA21/DURJOYSAHA21/main/assets/divider.svg" width="100%" alt="divider"/>
 
