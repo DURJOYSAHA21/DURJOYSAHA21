@@ -2,13 +2,10 @@ name: profile
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches: [main]
-    paths:
-      - ".github/scripts/telemetry.mjs"
-      - ".github/workflows/profile.yml"
 
 permissions:
   contents: write
