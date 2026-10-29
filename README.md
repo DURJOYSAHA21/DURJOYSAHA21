@@ -56,22 +56,7 @@ third episode I usually remember I had something to finish.
 
 <img src="https://skillicons.dev/icons?i=fastapi,react,vite,tailwind,dotnet,postgres,sqlite,docker,git,github,vscode" alt="FastAPI, React, Vite, Tailwind, .NET, PostgreSQL, SQLite, Docker, Git, GitHub, VS Code"/>
 
-## Shipped
 
-| Project | Stack | Notes |
-|:---|:---|:---|
-| **[jobmatch-bd](https://github.com/DURJOYSAHA21/jobmatch-bd)** | `Python` `spaCy` `sentence-transformers` `FastAPI` `React` | NLP job discovery for Bangladeshi CS/tech seekers. Ranks postings against a profile or uploaded CV using embedding similarity plus structured skill, education and location matching — with a plain-English reason behind every score. |
-| **[gridwise-llm](https://github.com/DURJOYSAHA21/gridwise-llm)** | `Python` `Gemini` `PuLP` `FastAPI` | Public API that reads campus operator notes and returns a cost-optimal 24-hour energy schedule. LLM interpretation with a validated deterministic fallback, built for the BUP CSE Fest 2026 preliminary. |
-| **[Vishing-Detection](https://github.com/DURJOYSAHA21/Vishing-Detection)** | `PyTorch` `Wav2Vec2` | Final tested model configurations and the trained pipeline. |
-| **[Explainable Deepfake Detection](https://github.com/DURJOYSAHA21/Explainable-and-Generalizable-Deepfake-Detection-for-Vishing-Attack-Recognition)** | `PyTorch` `SHAP` | Detection built to stay generalisable across datasets and explain its own decisions. |
-| **[DevVault](https://github.com/DURJOYSAHA21/DevVault)** | `C#` `.NET` | CLI that inspects a project and reports dependencies, diagnostics and structure. |
-| **[Zoo-Management](https://github.com/DURJOYSAHA21/Zoo-Management)** | `C#` `OOP` | OOP-II system: animals, staff, tasks, OTP login, real-time chat, zoo map, doctor assignment and a local banking module. |
-| **[Machine-Learning](https://github.com/DURJOYSAHA21/Machine-Learning)** | `Python` `scikit-learn` | Regression and classification coursework, including gradient descent written out by hand. |
-| **[React](https://github.com/DURJOYSAHA21/React)** | `JavaScript` `React` | Component practice builds, from single components to working pages. |
-| **[Leetcode](https://github.com/DURJOYSAHA21/Leetcode)** | `C++` | Ongoing DSA practice, committed as it happens. |
-
-Coursework archives: `Advance-Dot-Net`, `Compiler-Lab-`, `Graphics`, `WebTech`, `JOB-PORTAL`,
-`Shop-Management`, `SkillHub`, `TypeScript`, `Python`, `LabTask`.
 
 ## Telemetry
 
