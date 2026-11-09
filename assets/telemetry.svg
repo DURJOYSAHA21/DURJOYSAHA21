@@ -69,7 +69,7 @@
     </g>
     <g class="tile" style="animation-delay:0.66s">
       <rect x="655.0" y="84" width="91.5" height="66" rx="10" fill="#0f1626" stroke="#243044"/>
-      <text x="700.8" y="116" text-anchor="middle" font-size="23" font-weight="600" fill="#94a3b8">32</text>
+      <text x="700.8" y="116" text-anchor="middle" font-size="23" font-weight="600" fill="#94a3b8">33</text>
       <text x="700.8" y="135" text-anchor="middle" font-size="9.5" letter-spacing="0.9" fill="#64748b">public repos</text>
     </g>
     <g class="tile" style="animation-delay:0.75s">
