@@ -74,7 +74,7 @@
     </g>
     <g class="tile" style="animation-delay:0.75s">
       <rect x="758.5" y="84" width="91.5" height="66" rx="10" fill="#0f1626" stroke="#243044"/>
-      <text x="804.3" y="116" text-anchor="middle" font-size="23" font-weight="600" fill="#64748b">1</text>
+      <text x="804.3" y="116" text-anchor="middle" font-size="23" font-weight="600" fill="#64748b">2</text>
       <text x="804.3" y="135" text-anchor="middle" font-size="9.5" letter-spacing="0.9" fill="#64748b">followers</text>
     </g>
 
