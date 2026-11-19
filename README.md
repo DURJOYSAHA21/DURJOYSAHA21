@@ -66,21 +66,6 @@ The snake crawls through the same grid.
 
 <img src="https://raw.githubusercontent.com/DURJOYSAHA21/DURJOYSAHA21/output/github-contribution-grid-snake.svg" alt="Contribution grid snake animation"/>
 
-## Cooldown
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://api.memegen.link/images/drake/reading_the_docs/reading_the_source.png?width=300" alt="Drake meme: reading the source instead of the docs"/>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://api.memegen.link/images/woman-cat/it_works_on_my_machine/the_ci_runner.png?width=300" alt="Woman yelling at cat: it works on my machine"/>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://api.memegen.link/images/gb/finish_it_a_week_early/finish_it_the_night_before/finish_it_that_morning/git_push_on_the_bus.png?width=300" alt="Expanding brain meme about deadlines"/>
-    </td>
-  </tr>
-</table>
 
 <div align="center">
 
